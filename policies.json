@@ -1,10 +1,26 @@
 {
+    "SafeBrowsingProtectionLevel": 0,
+    "DefaultJavaScriptOptimizerSetting": 2,
+    "AutoplayAllowed": false,
+    "DefaultSearchProviderEnabled": true,
+    "DefaultSearchProviderName": "Brave",
+    "DefaultSearchProviderKeyword": "brave",
+    "DefaultSearchProviderSearchURL": "https://search.brave.com/search?q={searchTerms}",
+    "DefaultSearchProviderSuggestURL": "https://search.brave.com/api/suggest?q={searchTerms}",
+    "DefaultSearchProviderNewTabURL": "https://search.brave.com/",
+    "SearchSuggestEnabled": false,
+    "BraveWebDiscoveryEnabled": false,
+    "AutofillCreditCardEnabled": false,
+    "AutofillAddressEnabled": false,
+    "PaymentMethodQueryEnabled": false,
+    "PromptForDownloadLocation": true,
+    "HighEfficiencyModeEnabled": true,
+    "MemorySaverModeSavings": 2,
     "BraveRewardsDisabled": true,
     "BraveWalletDisabled": true,
     "BraveVPNDisabled": 1,
     "BraveAIChatEnabled": false,
-    "NewTabPageLocation": "https://search.brave.com",
     "TorDisabled": true,
     "PasswordManagerEnabled": false,
-    "DnsOverHttpsMode": "automatic"
+    "WebRtcIPHandling": "disable_non_proxied_udp"
 }
