@@ -2,7 +2,9 @@ Windows Registry Editor Version 5.00
 ; brave version: 142.0.7444.60  | brave://policy/
 
 [HKEY_LOCAL_MACHINE\Software\Policies\BraveSoftware\Brave]
+
 "SafeBrowsingProtectionLevel"=dword:00000000
+"DefaultJavaScriptOptimizerSetting"=dword:00000002
 "AutoplayAllowed"=dword:00000000
 "DefaultSearchProviderEnabled"=dword:00000001
 "DefaultSearchProviderName"="Brave"
@@ -10,6 +12,7 @@ Windows Registry Editor Version 5.00
 "DefaultSearchProviderSearchURL"="https://search.brave.com/search?q={searchTerms}"
 "DefaultSearchProviderSuggestURL"="https://search.brave.com/api/suggest?q={searchTerms}"
 "DefaultSearchProviderNewTabURL"="https://search.brave.com/"
+"SearchSuggestEnabled"=dword:00000000
 "BraveWebDiscoveryEnabled"=dword:00000000
 "AutofillCreditCardEnabled"=dword:00000000
 "AutofillAddressEnabled"=dword:00000000
@@ -24,5 +27,3 @@ Windows Registry Editor Version 5.00
 "TorDisabled"=dword:00000001
 "PasswordManagerEnabled"=dword:00000000
 "WebRtcIPHandling"="disable_non_proxied_udp"
-"DoNotTrackEnabled"=dword:00000000
-
