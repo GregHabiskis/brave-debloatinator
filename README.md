@@ -18,6 +18,16 @@ Brave and most other browsers disable “Send Do Not Track Request” by default
 
 -------
 
+# What Brave Debloatinator does NOT improve?
+
+The following items are not applied due to policies for these items being nonexistent. These options can be found in Settings -> Shields. Kindly follow the recommendations:
+
+* Trackers & ads blocking        :  Aggressive
+* Upgrade connections to HTTPS   :  Strict
+* Social media blocking          :  Uncheck All
+
+-------
+
 # How does it work?
 
 Brave debloatinator uses [group policies](https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy) typically used to manage organisations browsers to force disable fetures. Group policies are the only way to completly hide these fetures from settings and context menus.
