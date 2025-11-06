@@ -1,24 +1,26 @@
-# brave-debullshitinator
-Removes unnecessary bloat from Brave Browser.
+# What is disabled in Brave Debloatinator?
 
--------
+The following items are disabled, blocked, or changed by appling brave debullshitinator:
 
-# What is disabled?
-
-The following items are disabled by appling brave debullshitinator:
-
-* Brave rewards & Wallet
-* Brave VPN
+* Brave Rewards, Wallet, & VPN
 * Brave AI/Leo (some people may like Leo, in which case you can reenable it following the [customization guide](https://github.com/MulesGaming/brave-debullshitinator/wiki/Customization))
-* Changes Brave's ad-ridden homepage to [search.brave.com](https://search.brave.com) (*Only available on linux*)
-* Disables the password manager (I recommend using a third party password manager such as [Bitwarden](https://bitwarden.com) or [Proton Pass](https://proton.me/pass) that isn't tied to Brave sync or any one browser.)
-* Disabled Brave's Tor integration as it is insecure.
+* Built-in password manager & autofill (I recommend using a third party password manager such as [Bitwarden](https://bitwarden.com) or [Proton Pass](https://proton.me/pass) that isn't tied to Brave sync or any one browser.)
+* Brave's Tor integration, as it is insecure.
+* Brave Web Discovery Project
+* Safe Browsing Protection, to enhance privacy. I highly recommend using NextDNS with Hagezi Multi Pro Plus Blocklist inside Portmaster or RethinkDNS Firewall. If you want to keep using Google's protection, follow the [customization guide](https://github.com/MulesGaming/brave-debullshitinator/wiki/Customization))
+* JavaScript Optimizer, to enhance security. Sites may load slower, But I didn't notice much difference.
+* Video Autoplay
+* Brave Search is the Default Search Engine
+* Memomy Saver is set to Maximum
+* Non Proxied UDP connections are blocked
+
+Brave and most other browsers disable “Send Do Not Track Request” by default. It's recommended to keep it as is. Because most websites don't respect that request, and in most cases, it's used for further fingerprinting the user.
 
 -------
 
 # How does it work?
 
-Brave debullshitinator uses [group policies](https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy) typically used to manage organisations browsers to force disable fetures. Group policies are the only way to completly hide these fetures from settings and context menus.
+Brave debloatinator uses [group policies](https://support.brave.com/hc/en-us/articles/360039248271-Group-Policy) typically used to manage organisations browsers to force disable fetures. Group policies are the only way to completly hide these fetures from settings and context menus.
 
 -------
 
