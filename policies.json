@@ -23,7 +23,7 @@
     "TorDisabled": true,
     "PasswordManagerEnabled": false,
     "WebRtcIPHandling": "disable_non_proxied_udp",
-    "DNSOverHttpsMode": "enabled",
+    "DnsOverHttpsMode": "enabled",
     "DnsOverHttpsTemplates": [
     {
       "name": "Custom DNS",
