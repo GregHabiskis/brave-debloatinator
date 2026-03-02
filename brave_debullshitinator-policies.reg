@@ -27,3 +27,7 @@ Windows Registry Editor Version 5.00
 "TorDisabled"=dword:00000001
 "PasswordManagerEnabled"=dword:00000000
 "WebRtcIPHandling"="disable_non_proxied_udp"
+"DNSOverHttpsMode"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Brave Browser\DnsOverHttpsTemplates]
+"1"="{\"name\":\"Custom DNS\",\"url\":\"https://freedns.controld.com/x-oisd\"}"
