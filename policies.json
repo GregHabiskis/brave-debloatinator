@@ -22,5 +22,12 @@
     "BraveAIChatEnabled": false,
     "TorDisabled": true,
     "PasswordManagerEnabled": false,
-    "WebRtcIPHandling": "disable_non_proxied_udp"
+    "WebRtcIPHandling": "disable_non_proxied_udp",
+    "DNSOverHttpsMode": "enabled",
+    "DnsOverHttpsTemplates": [
+    {
+      "name": "Custom DNS",
+      "url": "https://freedns.controld.com/x-oisd"
+    }
+    ]
 }
